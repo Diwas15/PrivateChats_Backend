@@ -13,7 +13,7 @@ const app  = express();
 const server = createServer(app);
 const io = new Server(server,{
     cors: {
-        origin: "http://localhost:8081",
+        origin: "https://192.168.29.100:8081",
       }
 });
 
